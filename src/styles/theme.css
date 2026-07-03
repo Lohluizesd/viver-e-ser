@@ -1,0 +1,15 @@
+@theme {
+  --font-garamond: "EB Garamond", serif;
+
+  --color-moss: #606c38;
+  --color-terracotta: #bc6c25;
+  --color-beige: #fefae0;
+  --color-chocolate: #432818;
+  --color-moss-light: #a8b87a;
+  --color-chocolate-light: #8a6d54;
+
+  --color-primary: #606c38;
+  --color-secondary: #bc6c25;
+  --color-background: #fefae0;
+  --color-text: #432818;
+}
