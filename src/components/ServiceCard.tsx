@@ -1,0 +1,23 @@
+type CardServiceProps = {
+  image: string;
+  title: string;
+  description: string;
+};
+
+export default function CardService({
+  image,
+  title,
+  description,
+}: CardServiceProps) {
+  return (
+    <article className="rounded-3xl bg-beige p-6 shadow-sm align-center transition-all duration-300 hover:scale-105 hover:shadow-lg">
+      <img src={image} alt={title} className="h-48 w-full rounded-2xl " />
+
+      <h3 className="mt-6 text-2xl font-semibold text-chocolate">{title}</h3>
+
+      <p className="mt-3 text-base leading-7 text-chocolate/80">
+        {description}
+      </p>
+    </article>
+  );
+}
