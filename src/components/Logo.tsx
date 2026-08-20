@@ -3,6 +3,7 @@ import logoLight from "../assets/images/logo-light.svg";
 
 type LogoProps = {
   className?: string;
+  alt?: string;
   variant?: "default" | "light";
 };
 
