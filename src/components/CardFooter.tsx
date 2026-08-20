@@ -1,13 +1,19 @@
 type CardFooterProps = {
   image: string;
   description: string;
+  url: string;
 };
 
-export default function CardFooter({ image, description }: CardFooterProps) {
+export default function CardFooter({
+  image,
+  description,
+  url,
+}: CardFooterProps) {
   return (
-    <div className="flex items-center justify-center p-10">
-      <img src={image} alt="Footer Image" className="h-7 w-7" />
-      <p className="mt-4 text-lg text-var">{description}</p>
-    </div>
+    <a href={url} rel="noopener noreferrer" className="flex items-center gap-3">
+      <img src={image} alt="" className="h-5 w-5 object-contain" />
+
+      <span>{description}</span>
+    </a>
   );
 }

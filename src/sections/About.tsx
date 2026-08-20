@@ -19,10 +19,19 @@ export default function About() {
             </span>
           </h2>
 
-          <p className="text-lg leading-8 text-chocolate">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since 1966, when designers at Letraset and James Mosley.
+          <p className="text-xl text-justify font-semibold leading-8 text-chocolate">
+            A Viver e Ser nasceu do desejo de oferecer um lugar onde o cuidado
+            com a saúde vai além do sintoma — onde corpo, mente, alma e história
+            se encontram em um mesmo espaço de acolhimento. <br />
+            <br />
+            Acreditamos que cada pessoa carrega uma sabedoria interna única, e
+            que o caminho da cura passa por aprender a ouvi-la. Por isso,
+            reunimos práticas que dialogam entre si e com você, respeitando seu
+            tempo, suas crenças e sua jornada pessoal. <br />
+            <br />
+            Aqui, não há fórmulas prontas. Há escuta. Há presença. Há um convite
+            para que você se permita viver com mais leveza e ser com mais
+            autenticidade.
           </p>
         </div>
       </div>

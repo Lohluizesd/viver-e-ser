@@ -3,7 +3,10 @@ import { services } from "../data/services";
 
 export default function Services() {
   return (
-    <section id="servicos" className="bg-beige py-24 text-chocolate">
+    <section
+      id="servicos"
+      className="bg-beige py-24 text-chocolate font-semibold text-center"
+    >
       <div className="container-site flex flex-col gap-12">
         <h2 className="text-center text-4xl font-semibold leading-tight">
           Serviços Oferecidos
