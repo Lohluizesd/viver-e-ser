@@ -1,7 +1,7 @@
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function FloatingWpp() {
-  const phoneNumber = "5531999999999";
+  const phoneNumber = "5531992107100";
   const message = "Olá! Gostaria de saber mais sobre os serviços.";
 
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
