@@ -1,10 +1,10 @@
 import danca from "../assets/images/services/danca.svg";
-import psicoterapia from "../assets/images/services/psicoterapia.png";
+import psicoterapia from "../assets/images/services/psicoterapia.svg";
 import registros from "../assets/images/services/registros.svg";
 import reiki from "../assets/images/services/reiki.svg";
 import taro from "../assets/images/services/tarot.svg";
-import terapiaintegrativa from "../assets/images/services/terapiaintegrativa.png";
-import terapiasomatica from "../assets/images/services/terapiasomatica.png";
+import terapiaintegrativa from "../assets/images/services/terapiaintegrativa.svg";
+import terapiasomatica from "../assets/images/services/terapiasomatica.svg";
 
 export const services = [
   {

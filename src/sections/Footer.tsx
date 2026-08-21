@@ -5,7 +5,7 @@ import FooterLinks from "../components/FooterLinks";
 export default function Footer() {
   return (
     <footer className="bg-moss text-beige">
-      <div className="container-site py-16">
+      <div className="container-site py-10 md:py-16">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div className="flex flex-col items-start gap-4">
             <h3 className="mb-5 text-xl font-semibold">Viver & Ser</h3>
@@ -29,10 +29,12 @@ export default function Footer() {
               ))}
             </div>
           </div>
-
-          <FooterLinks title="Menu" links={menuLinks} />
-
-          <FooterLinks title="Serviços" links={serviceLinks} />
+          <div className="hidden md:contents">
+            <FooterLinks title="Menu" links={menuLinks} />
+          </div>
+          <div className="hidden md:contents">
+            <FooterLinks title="Serviços" links={serviceLinks} />
+          </div>
         </div>
 
         <div className="mt-12 border-t border-beige/20 pt-6 text-sm text-beige/70">

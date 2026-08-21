@@ -1,6 +1,5 @@
 import wpp from "../assets/images/footer/whatsapp.png";
 import instagram from "../assets/images/footer/instagram.png";
-import email from "../assets/images/footer/email.png";
 
 export const contacts = [
   {
@@ -14,12 +13,6 @@ export const contacts = [
     image: instagram,
     description: "Instagram",
     url: "https://www.instagram.com/viver.e.ser.terapias",
-  },
-  {
-    id: "email",
-    image: email,
-    description: "E-mail",
-    url: "mailto: karolainesd@gmail.com",
   },
 ];
 export const menuLinks = [

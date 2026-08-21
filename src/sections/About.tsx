@@ -1,11 +1,11 @@
-import imagemMulher from "../assets/images/imagemmulher.svg";
+import mulher from "../assets/images/logo.svg";
 
 export default function About() {
   return (
-    <section id="sobre" className="bg-beige py-24 text-chocolate">
+    <section id="sobre" className="bg-beige py-12 text-chocolate">
       <div className="container-site flex flex-col items-center gap-12 md:flex-row">
         <img
-          src={imagemMulher}
+          src={mulher}
           alt="Mulher praticando yoga"
           className="w-full max-w-md"
         />

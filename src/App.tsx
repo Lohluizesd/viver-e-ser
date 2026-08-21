@@ -1,3 +1,4 @@
+import BackToTop from "./components/BackToTop";
 import FloatingWpp from "./components/FloatingWpp";
 import About from "./sections/About";
 import AboutMe from "./sections/AboutMe";
@@ -18,6 +19,7 @@ function App() {
         <Footer />
       </main>
 
+      <BackToTop />
       <FloatingWpp />
     </>
   );
