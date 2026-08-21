@@ -1,5 +1,8 @@
 # 🌿 Viver & Ser
 
+<img width="1667" height="892" alt="image" src="https://github.com/user-attachments/assets/b15e2e17-4c7a-4db8-b63c-6ed02889befb" />
+
+
 Site institucional desenvolvido para a **Viver & Ser**, um espaço voltado ao acolhimento, autoconhecimento e terapias integrativas.
 
 O projeto foi desenvolvido com foco em uma experiência leve, acolhedora e responsiva, traduzindo a identidade visual da Viver & Ser para o ambiente digital.
